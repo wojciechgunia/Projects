@@ -1,0 +1,18 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+DirectoryIndex index.php
+
+RewriteEngine on
+RewriteRule logowanie index.php
+RewriteRule panel panel.php
+RewriteRule archiwum archiwum.php
+RewriteRule produkty produkty.php
+RewriteRule ustawienia ustawienia.php
+RewriteRule pro-add-pan pro-add-pan.php
+RewriteRule pro-edit-pan pro-edit-pan.php
+RewriteRule zam-add-pan zam-add-pan.php
+RewriteRule zam-edit-pan zam-edit-pan.php

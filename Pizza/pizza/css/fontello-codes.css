@@ -1,0 +1,21 @@
+
+.icon-mail:before { content: '\e800'; } /* '' */
+.icon-heart-empty:before { content: '\e801'; } /* '' */
+.icon-heart:before { content: '\e802'; } /* '' */
+.icon-comment:before { content: '\e803'; } /* '' */
+.icon-basket:before { content: '\e804'; } /* '' */
+.icon-up-big:before { content: '\e805'; } /* '' */
+.icon-home:before { content: '\e806'; } /* '' */
+.icon-clock:before { content: '\e807'; } /* '' */
+.icon-location:before { content: '\e808'; } /* '' */
+.icon-dollar:before { content: '\e809'; } /* '' */
+.icon-ok-circled2:before { content: '\e80a'; } /* '' */
+.icon-ok-circled:before { content: '\e80b'; } /* '' */
+.icon-spin1:before { content: '\e830'; } /* '' */
+.icon-mail-alt:before { content: '\f0e0'; } /* '' */
+.icon-comment-empty:before { content: '\f0e5'; } /* '' */
+.icon-info:before { content: '\f129'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-cc-visa:before { content: '\f1f0'; } /* '' */
+.icon-cc-mastercard:before { content: '\f1f1'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */

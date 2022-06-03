@@ -1,0 +1,15 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+DirectoryIndex index.php
+
+RewriteEngine on
+RewriteRule home index.php
+RewriteRule kontakt kontakt.php
+RewriteRule o-nas onas.php
+RewriteRule zamów-online zamowienia.php
+RewriteRule menu menu.php
+RewriteRule koszyk koszyk.php
