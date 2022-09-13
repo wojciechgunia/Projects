@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-kurs": {
+    "Lista-zadan": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-kurs",
+            "outputPath": "dist/lista-zadan",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-kurs:build:production"
+              "browserTarget": "Lista-zadan:build:production"
             },
             "development": {
-              "browserTarget": "angular-kurs:build:development"
+              "browserTarget": "Lista-zadan:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-kurs:build"
+            "browserTarget": "Lista-zadan:build"
           }
         },
         "test": {
