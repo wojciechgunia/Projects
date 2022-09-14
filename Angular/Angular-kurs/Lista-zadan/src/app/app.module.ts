@@ -4,10 +4,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AddTaskComponent } from './add-task/add-task.component';
+import { TasksListComponent } from './tasks-list/tasks-list.component';
+import { TasksDoneComponent } from './tasks-done/tasks-done.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddTaskComponent,
+    TasksListComponent,
+    TasksDoneComponent
   ],
   imports: [
     BrowserModule,
