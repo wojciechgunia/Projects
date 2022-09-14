@@ -1,17 +1,25 @@
 <div>
-  <div class="container">
+  <div class="container" id="first">
     <div>
-      Miejsce na dodawanie zadań
+      <input type="text" [(ngModel)]="newTask"><input type="button" value="Dodaj" (click)="addTask()">
     </div>
   </div>
   <div class="container">
 
     <div>
-      Lista zadań
+      Zadania do wykonania ( {{Tasks.length}} ):
+      <div *ngFor="let task of Tasks">
+        ☐ {{task}}
+        <input type="button" value="Usuń" (click)="delTask(task)">
+        <input type="button" value="Zrobione" (click)="completeTask(task)">
+      </div>
     </div>
 
     <div>
-      Wykonane zadania
+      Wykonane zadania ( {{TasksDone.length}} ):
+      <div *ngFor="let task of TasksDone">
+      ☑ {{task}}
+      </div>
     </div>
 
   </div>
