@@ -8,11 +8,16 @@
 
     <div>
       Zadania do wykonania ( {{Tasks.length}} ):
-      <div *ngFor="let task of Tasks">
-        ☐ {{task}}
-        <input type="button" value="Usuń" (click)="delTask(task)">
-        <input type="button" value="Zrobione" (click)="completeTask(task)">
-      </div>
+      <ng-container *ngIf="Tasks.length > 0; else noTask">
+        <div *ngFor="let task of Tasks">
+          ☐ {{task}}
+          <input type="button" value="Usuń" (click)="delTask(task)">
+          <input type="button" value="Zrobione" (click)="completeTask(task)">
+        </div>
+      </ng-container>
+      <ng-template #noTask>
+        <p>Brak zadań, masz czas wolny!</p>
+      </ng-template>
     </div>
 
     <div>
