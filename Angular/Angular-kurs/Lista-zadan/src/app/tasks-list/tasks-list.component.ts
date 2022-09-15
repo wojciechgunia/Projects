@@ -1,34 +1,35 @@
 import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
+import { TaskService } from '../services/task.service';
 
 @Component({
   selector: 'app-tasks-list',
   templateUrl: './tasks-list.component.html',
 })
-export class TasksListComponent implements OnInit {
+export class TasksListComponent implements OnInit
+{
 
-  @Input()
   Tasks = [""];
 
-  @Output()
-  emitDel = new EventEmitter<string>();
-
-  @Output()
-  emitCom = new EventEmitter<string>();
 
 
-  constructor() { }
+  constructor(private tasksTaskservice: TaskService)
+  {
+    this.tasksTaskservice.getTasksObs().subscribe((tasks: Array<string>)=>{ this.Tasks=tasks});
+  }
 
-  ngOnInit(): void {
+  ngOnInit(): void
+  {
+
   }
 
   delTask(task: string)
   {
-    this.emitDel.emit(task);
+    this.tasksTaskservice.delTask(task);
   }
 
   completeTask(task: string)
   {
-    this.emitCom.emit(task);
+    this.tasksTaskservice.completeTask(task);
   }
 
 }
