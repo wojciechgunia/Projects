@@ -1,7 +1,7 @@
 Zadania do wykonania ( {{Tasks.length}} ):
 <ng-container *ngIf="Tasks.length > 0; else noTask">
-  <div *ngFor="let task of Tasks">
-    ☐ {{task}}
+  <div *ngFor="let task of Tasks" appDate [date]="task.created">
+    ☐ {{task.name}}
     <input type="button" value="Usuń" (click)="delTask(task)">
     <input type="button" value="Zrobione" (click)="completeTask(task)">
   </div>
