@@ -1,4 +1,4 @@
 Wykonane zadania ( {{TasksDone.length}} ):
-<div *ngFor="let task of TasksDone" appChecked appDate [date]="task.end">
-  ☑ {{task.name}}
+<div *ngFor="let task of TasksDone | sortTask" appChecked appDate [date]="task.end">
+  ☑ {{task.name | transformTask}}
 </div>
