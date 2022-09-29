@@ -1,4 +1,6 @@
 Wykonane zadania ( {{TasksDone.length}} ):
-<div *ngFor="let task of TasksDone | sortTask" appChecked appDate [date]="task.end">
-  ☑ {{task.name | transformTask}}
+<div ngClass="card" *ngFor="let task of TasksDone | sortTask" appChecked appDate [date]="task.end">
+  <div class="cardbox">
+    <div class="text">{{task.name | transformTask}}</div>
+  </div>
 </div>

@@ -16,6 +16,7 @@ export class DateDirective {
   mouseenter(eventDate: Event)
   {
     this.div.innerHTML = this.date.toLocaleDateString();
+    this.div.style.fontSize = "0.8rem";
     this.renderer.appendChild(this.el.nativeElement, this.div);
   }
 

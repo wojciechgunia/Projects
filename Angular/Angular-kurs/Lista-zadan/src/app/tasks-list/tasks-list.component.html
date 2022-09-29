@@ -1,9 +1,13 @@
 Zadania do wykonania ( {{Tasks.length}} ):
 <ng-container *ngIf="Tasks.length > 0; else noTask">
-  <div *ngFor="let task of Tasks | sortTask" appDate [date]="task.created">
-    ☐ {{task.name | transformTask}}
-    <input type="button" value="Usuń" (click)="delTask(task)">
-    <input type="button" value="Zrobione" (click)="completeTask(task)">
+  <div  ngClass="card" *ngFor="let task of Tasks | sortTask" appDate [date]="task.created">
+    <div class="cardbox">
+      <div class="text">{{task.name | transformTask}}</div>
+      <div class="buttonbox">
+        <button type="button" ngClass="delBtn" (click)="delTask(task)"><i class="fa-solid fa-trash"></i></button>
+        <button type="button" ngClass="comBtn" (click)="completeTask(task)"><i class="fa-solid fa-check"></i></button>
+      </div>
+    </div>
   </div>
 </ng-container>
 <ng-template #noTask>
