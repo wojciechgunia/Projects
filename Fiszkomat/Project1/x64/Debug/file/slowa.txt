@@ -1,8 +1,0 @@
-Angielski;Polski;7
-Hello;Cześć
-Add;Dodać
-After;Po
-Age;Wiek
-Air;Powietrze
-Computer;Komputer
-Tea;Herbata

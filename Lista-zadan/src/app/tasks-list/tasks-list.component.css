@@ -1,0 +1,64 @@
+.card
+{
+  color: black;
+  background-color: #f6e56f;
+  padding: 10px 30px;
+  margin: 10px;
+  width: 350px;
+  min-height: 27.5px !important;
+}
+
+.cardbox
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.buttonbox
+{
+  width: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.text
+{
+  word-wrap: break-word;
+  width: 280px;
+}
+
+button
+{
+  padding: 5px 10px;
+  margin: 1px 8px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.delBtn
+{
+  background: linear-gradient(145deg, #ff0000, #e60000);
+  box-shadow:  1px 1px 1px #d10000,
+             -1px -1px 1px #ff0000;
+}
+
+.delBtn:hover
+{
+  background: linear-gradient(145deg, #e60000, #ff0000);
+}
+
+.comBtn
+{
+  background: linear-gradient(145deg, #1cbe00, #17a000);
+  box-shadow:  1px 1px 1px #159200,
+              -1px -1px 1px #1fd200;
+}
+
+.comBtn:hover
+{
+  background: linear-gradient(145deg, #17a000, #1cbe00);
+}

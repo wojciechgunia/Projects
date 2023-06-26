@@ -1,2 +1,0 @@
-﻿sfml-main-d.lib(MainWin32.cpp.obj) : warning LNK4099: nie znaleziono pliku PDB „sfml-main-s-d.pdb” z elementem „sfml-main-d.lib(MainWin32.cpp.obj)” lub w pozycji „C:\Users\wojte\Szkoła\project 1.0\program\Fiszkomat\x64\Debug\sfml-main-s-d.pdb”; obiekt zostanie skonsolidowany bez informacji debugowania
-  Project1.vcxproj -> C:\Users\wojte\Szkoła\project 1.0\program\Fiszkomat\x64\Debug\Project1.exe
