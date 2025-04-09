@@ -52,3 +52,22 @@
 	<li><a href="https://github.com/wojciechgunia/Projects/tree/main/Pizza">Pizza - contains website files for operating an online pizzeria / html,php,css </a></li>
 	<li><a href="https://github.com/wojciechgunia/Projects/tree/main/TechHome">TechHome - contains the files of a web store with IoT items / Wordpress,WooCommerce </a></li>
 </ul>
+
+
+###
+
+<h4 align="left">other Angular repositories links:</h4>
+
+###
+
+<ul>
+	<li><a href="https://github.com/wojciechgunia/JavaProjects/tree/main/kursJavaOdZera">kursJavaOdZera - contains content from the JavaOdZera course</a>
+		<ul><li><a href="https://www.udemy.com/course/java-od-zera/" target="_blank">Link to the course page</a></li></ul></li>
+	<li><a href="https://github.com/wojciechgunia/JavaProjects/tree/main/kursJavaSpring">kursJavaSpring - contains content from the "Java Spring - Od zera do Fullstack developera" course</a>
+		<ul><li><a href="https://www.udemy.com/course/angular-i-java-spring-od-zera-do-fullstack-developera/" target="_blank">Link to the course page</a></li></ul></li>
+	<li><a href="https://github.com/wojciechgunia/AngularProjects/tree/main/KursAngular">KursAngular - contains content from the "Angular - Od zera do Fullstack developera" course</a>
+		<ul><li><a href="https://www.udemy.com/course/angular-i-java-spring-od-zera-do-fullstack-developera/" target="_blank">Link to the course page</a></li></ul></li>
+	<li><a href="https://github.com/wojciechgunia/PUT_Brandshop_PO">PUT Brandshop Project - online store with Java Spring and Angular</a></li>
+	<li><a href="https://github.com/wojciechgunia/PUT_IO_Project_JSON_Tools">PUT_IO_Project_JSON_Tools - Java Spring and Angular JSON Management Tool (Team project)</a></li>
+	<li><a href="https://github.com/wojciechgunia/wojciechgunia.pl">Design of my personal website in Java Spring and Angular</a></li>
+</ul>
